@@ -5,7 +5,7 @@
 $.ajaxPrefilter(function (options) {
     // 得到发起请求的接口地址
     // console.log(options.url)
-    // 拼接完整的路径
+    // 在发起真正的请求之前 统一拼接请求的根路径
     options.url = 'http://api-breakingnews-web.itheima.net' + options.url
     console.log(options.url);
 
