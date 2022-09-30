@@ -55,7 +55,7 @@ $(function () {
             }
             layer.msg('注册成功，请登录！')
             // 模拟 “去登录”按钮点击事件
-            $('#link_login').click()
+            // $('#link_login').click()
         })
     })
 
